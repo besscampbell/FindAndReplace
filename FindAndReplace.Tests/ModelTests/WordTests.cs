@@ -17,5 +17,21 @@ namespace FindAndReplace.Tests
       Word myPhrase = new Word(sentence, oldWord, newWord);
     }
 
+    [TestMethod]
+    public void WordReplace_ReplacesWord_String()
+    {
+      //Arrange
+      string sentence = "The mountains are behind the clouds today";
+      string oldWord = "clouds";
+      string newWord = "houses";
+      string result = "The mountains are behind the houses today";
+
+      Word myPhrase = new Word(sentence, oldWord, newWord);
+      //Act
+      string replacement = myPhrase.Sentence.Replace(myPhrase.OldWord, myPhrase.NewWord);
+      //Assert
+      Assert.AreEqual(replacement, result);
+    }
+
   }
 }
