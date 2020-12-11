@@ -1,12 +1,12 @@
 # Find And Replace
 
-#### This is a console application written in the C# language and the .NET framework. It takes a users word and gives it a Scrabble point value, 12/10/2020
+#### This is a console application written in the C# language and the .NET framework. It takes in a sentence and then replaces a word, 12/10/2020
 
 #### By **_Austin Schrader & Bess Campbell_**
 
 ## Description
 
-We got to practice using C# and .NET where the user inputs words into the console and the program returns the Scrabble word score. It does not account for any multipliers you might hit on the game board.
+We got to practice using C# and .NET where the application takes a sentence and replaces a word in that sentence with another word.
 
 ## Setup/Installation Requirements
 
