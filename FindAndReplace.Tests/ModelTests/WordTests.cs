@@ -1,10 +1,11 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using FindAndReplace;
+using FindAndReplace.Models;
+using System;
 
 namespace FindAndReplace.Tests
 {
   [TestClass]
-  public class Word
+  public class WordTests
   {
     [TestMethod]
     public void WordConstructor_CreatesInstanceOfWord_Word()
